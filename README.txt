@@ -15,6 +15,34 @@ current speedrun timing rules, all other splits are based solely on my
 personal preference and will almost certainly differ from common use at times,
 so it may be best to use a new set of splits initially.
 
+-------------
+Installation:
+-------------
+Currently this autosplitter only works with FCEUX 2.2.3, and I've only tested
+using LiveSplit. If you'd like to see compatibility added for another emulator,
+let me know and I may be able to add it depending on the weight of the lift.
+
+Once LiveSplit and FCEUX are installed:
+- Download the startropics.asl file and save it locally where LiveSplit will
+  be able to access it.
+- Open LiveSplit and open the Layout Editor by right-clicking and choosing
+  "Edit Layout" (notably, do not select Edit Splits)
+- If you don't have an entry for "Scriptable Auto Splitter", click the plus,
+  hover to "Control", and select "Scriptable Auto Splitter" to add
+- Either double-click the "Scriptable Auto Splitter" in the layout, or click
+  the "Layout Settings" button at the bottom of the window and locate the tab
+  for the auto splitter
+- Change the script path to the location of startropics.asl (you can browse to
+  find the file)
+- If the script loads correctly, the Options and Advanced fields should auto-
+  populate with the split options. Click "Ok" and you should be good to go.
+- If the script does not load, verify the file name is correct and that the
+  script was correctly and fully downloaded. If you need more information, the
+  search in Windows for the program Event Viewer, and look in Windows Logs >
+  Application for events of level "Error" and source "LiveSplit"
+- To disable the script, either leave the script path empty, or unselect all
+  options from the scriptable auto splitter tab in the layout settings.
+
 --------
 Options:
 --------
